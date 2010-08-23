@@ -1,0 +1,6 @@
+A rough read me.
+Use these files to create a command line dictionary. Copy the file d under /usr/bin as a command. The make a .dictionary folder in home directory and copy meanings file in it. You are ready to use it. $ d apple will show the meaning of apple. I will commit a Makefile to automate the process and correct install and read me file later.
+meanings -> file containing the meaning of all words in words file.
+words -> list of words in dictionary.
+fetch.pl -> A perl script to fetch meaning of each word in words file. Used dict to meaning from WordNet server.
+d -> A perl script accepting a word as argument and outputs its meaning.
